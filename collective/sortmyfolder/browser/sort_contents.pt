@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="collective.sortmyfolder">
+
+<body>
+
+<div metal:fill-slot="main">
+    <tal:main-macro metal:define-macro="main">
+	<div id="sortingUI">
+        <h1 class="documentFirstHeading" i18n:translate="">Sort folder options</h1>
+
+        <a href=""
+         class="link-parent"
+         tal:attributes="href context/absolute_url"
+		 i18n:domain="plone"
+         i18n:translate="return_to_view">
+          Return
+        </a> 
+
+        <p class="documentDescription" i18n:translate="sort_page_description">
+        	From there you can sort automatically all contents inside this folder
+        </p>
+
+		<form method="get" tal:attributes="action string:${context/absolute_url}/folder_position">
+		<fieldset>
+			<legend i18n:translate="sort_page_legend">Ordina per...</legend>
+		</fieldset>
+		<input type="submit" class="context" name="sort" value="Sort" />
+		</form>
+
+	</div>
+    </tal:main-macro>
+</div>
+
+</body>
+</html>
+

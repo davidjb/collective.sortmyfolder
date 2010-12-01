@@ -5,7 +5,7 @@ version = '0.1.0'
 
 setup(name='collective.sortmyfolder',
       version=version,
-      description="Port some no-so-hidden Plone feature for sorting your folders",
+      description="Reveal some no-so-hidden Plone feature for sorting your folders",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
