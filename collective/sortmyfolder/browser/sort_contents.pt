@@ -14,14 +14,16 @@
 
         <a href=""
          class="link-parent"
-         tal:attributes="href context/absolute_url"
+         tal:attributes="href string:${context/absolute_url}/folder_contents"
 		 i18n:domain="plone"
          i18n:translate="return_to_view">
           Return
         </a> 
 
         <p class="documentDescription" i18n:translate="sort_page_description">
-        	From there you can sort automatically all contents inside this folder
+        	From there you can sort automatically all contents inside this folder. Using those options will not change
+			automatically the default order of the folder, but simply re-order the folder at the current state
+			(and you are still free to change the order later, from the &quot;Contents&quot; view).
         </p>
 
 		<form method="GET" tal:attributes="action string:${context/absolute_url}/folder_position">

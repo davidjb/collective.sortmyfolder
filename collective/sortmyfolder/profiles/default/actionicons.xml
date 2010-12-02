@@ -3,5 +3,6 @@
     i18n:domain="plone">
    <action-icon category="object_buttons" action_id="sort_folder"
               title="Sort folder" priority="0"
+			  i18n:attributes="title"
               icon_expr="++resource++sort-icon.png"/>
 </action-icons>

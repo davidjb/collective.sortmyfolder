@@ -21,3 +21,8 @@ msgstr ""
 #: ./skins/sortmyfolder/folder_position.cpy:32
 msgid "Item's position has changed."
 msgstr ""
+
+#. Default: "Return"
+#: ./browser/sort_contents.pt:15
+msgid "return_to_view"
+msgstr "Torna"

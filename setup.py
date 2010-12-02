@@ -13,6 +13,7 @@ setup(name='collective.sortmyfolder',
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
+        "Development Status :: 4 - Beta",
         ],
       keywords='plone folder sort',
       author='RedTurtle Technology',

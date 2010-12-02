@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-12-02 09:28+0000\n"
+"POT-Creation-Date: 2010-12-02 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 
+#: ./profiles/default/actionicons.xml
 #: ./profiles/default/actions.xml
 msgid "Sort folder"
 msgstr ""
@@ -24,10 +25,5 @@ msgstr ""
 #. Default: "Advanced sorting options for the folder"
 #: ./profiles/default/actions.xml
 msgid "help_sort_folder"
-msgstr ""
-
-#. Default: "Return"
-#: ./browser/sort_contents.pt:15
-msgid "return_to_view"
 msgstr ""
 
