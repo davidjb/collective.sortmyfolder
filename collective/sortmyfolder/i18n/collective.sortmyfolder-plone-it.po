@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-12-01 11:46+0000\n"
+"POT-Creation-Date: 2010-12-02 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,4 +25,9 @@ msgstr "Ordina cartella"
 #: ./profiles/default/actions.xml
 msgid "help_sort_folder"
 msgstr "Opzioni avanzate di ordinamento della cartella"
+
+#. Default: "Return"
+#: ./browser/sort_contents.pt:15
+msgid "return_to_view"
+msgstr "Torna"
 

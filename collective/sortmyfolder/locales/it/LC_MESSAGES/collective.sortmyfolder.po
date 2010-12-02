@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-12-01 11:46+0000\n"
+"POT-Creation-Date: 2010-12-02 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,62 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.sortmyfolder\n"
 
-#: ./browser/sort_contents.pt:15
+#: ./browser/sort_contents.pt:41
+msgid "Creation date"
+msgstr ""
+
+#: ./browser/sort_contents.pt:48
+msgid "Modification date"
+msgstr ""
+
+#: ./browser/sort_contents.pt:55
+msgid "Position in folder"
+msgstr ""
+
+#: ./browser/sort_contents.pt:64
+msgid "Reverse sorting"
+msgstr ""
+
+#: ./browser/sort_contents.pt:13
 msgid "Sort folder options"
 msgstr "Opzioni di ordinamento della cartella"
 
+#: ./browser/sort_contents.pt:34
+msgid "Title"
+msgstr ""
+
+#. Default: "Check this for reverse sorting, from grater value to the lowest."
+#: ./browser/sort_contents.pt:65
+msgid "help_reverse"
+msgstr ""
+
+#. Default: "Sort by creation date. Commonly the last created content is added at the end of the folder."
+#: ./browser/sort_contents.pt:42
+msgid "help_sort_created"
+msgstr ""
+
+#. Default: "Sort by modification date. When you modify a content its position is not changed automatically."
+#: ./browser/sort_contents.pt:49
+msgid "help_sort_modified"
+msgstr ""
+
+#. Default: "Use this flag with the \"reverse\" check below, to reverte the current sorting of the folder. Not using the flag below will do nothing at all."
+#: ./browser/sort_contents.pt:56
+msgid "help_sort_position_in_folder"
+msgstr ""
+
+#. Default: "Sort by content's title. Be aware that titles with digit can leave to unexpected results."
+#: ./browser/sort_contents.pt:35
+msgid "help_sort_title"
+msgstr ""
+
 #. Default: "From there you can sort automatically all contents inside this folder"
-#: ./browser/sort_contents.pt:19
+#: ./browser/sort_contents.pt:23
 msgid "sort_page_description"
 msgstr "Da qui puoi ordinare automaticamente i contenuti di questa cartella"
+
+#. Default: "Sort by..."
+#: ./browser/sort_contents.pt:30
+msgid "sort_page_legend"
+msgstr ""
 
