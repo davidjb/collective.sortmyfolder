@@ -5,14 +5,14 @@ The piece of software that make possible sorting items in Plone contains hidden 
 
 Normally, when you call a sort action in Plone, you call an URL like this::
 
-    http://myhost/folder_position?position=up&id=content_id
+    http://myhost/myfolder/folder_position?position=up&id=content_id
 
 ... of course, KSS/jQuery stuff in recent Plone versions will hide this feature, but is still available when you disable
 Javascript.
 
 The Plone UI has no way today for performing action like this::
 
-    http://myhost/folder_position?position=ordered&id=fieldname
+    http://myhost/myfolder/folder_position?position=ordered&id=fieldname
 
 But the feature is inside Plone: in this way you will sort a folder automatically, using a field value for comparison
 (like "*title*", or "*created*").
@@ -23,14 +23,16 @@ unluckily *folder_position* not expone to users. But we can fix this.
 What this product do
 ====================
 
-This product add to Plone following features.
+This product add to Plone some of the features that follow, patching Plone a little (see also `#11317`__).
+
+__ http://dev.plone.org/plone/ticket/11317
 
 Can now sort a folder in reverse order
 --------------------------------------
 
 You can call URL like this::
 
-    http://myhost/folder_position?position=ordered&id=created&reverse=1
+    http://myhost/myfolder/folder_position?position=ordered&id=created&reverse=1
 
 and this will sort the folder using reverse criteria.
 
@@ -39,7 +41,7 @@ Add "delta" criteria to the sorting mechanism
 
 You can call::
 
-    http://myhost/folder_position?position=up&id=content_id&delta=4
+    http://myhost/myfolder/folder_position?position=up&id=content_id&delta=4
 
 and this will move the content down by 4 slot instead of default 1 (this feature, if you use Plone KSS/jQuery/Javascript
 sorting, is not so usefull).
@@ -59,7 +61,7 @@ It will not add new sorting behaviour.
 Dependencies
 ============
 
-collective.sortmyfolder has been tested on Plone 3.3.
+Test for collective.sortmyfolder has been done on Plone 3.3.
 Tests on Plone 4 are welcome. 
 
 Authors
