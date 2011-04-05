@@ -5,6 +5,8 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from collective.sortmyfolder import sortFolderMessageFactory as _
 from Products.CMFCore.utils import getToolByName
 
+from OFS.interfaces import IOrderedContainer
+
 class SortContentsView(BrowserView):
     """The view for sorting folders"""
 

@@ -46,19 +46,19 @@ You can call::
 and this will move the content down by 4 slot instead of default 1 (this feature, if you use Plone KSS/jQuery/Javascript
 sorting, is not so usefull).
 
-Add a nice Plone interface for all those features
--------------------------------------------------
+Add a nice Plone interface for global folder sorting
+----------------------------------------------------
 
 Your "*Action*" menu will be populated with a new entry: "*Sort folder*". This will give to the user a Plone form where
 he can perform common sort operation.
 
-.. image:: http://keul.it/images/plone/collective.sortmyfolder-0.1.0.png
+.. image:: http://keul.it/images/plone/collective.sortmyfolder-1.0.0.png
    :alt: Sort my folder form
 
-What this product doesn't
-=========================
+What this product isn't
+=======================
 
-This product only reveal feature that are already in Plone (inside the *orderObjects* method).
+This product only reveal features that are already in Plone (inside the *orderObjects* method).
 It will not add new sorting behaviour.
 
 Dependencies

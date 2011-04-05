@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.2.0'
+version = '1.0.0'
 
 setup(name='collective.sortmyfolder',
       version=version,
@@ -13,7 +13,7 @@ setup(name='collective.sortmyfolder',
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         ],
       keywords='plone folder sort',
       author='RedTurtle Technology',

@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.0.0 (2011-04-05)
+------------------
+
+* added new dates sorting criteria [keul]
+* added the field for a custom way to sort [keul] 
+* do not show the menu entry if you can't sort the current object [keul]
+
 0.2.0 (2011-01-07)
 ------------------
 
