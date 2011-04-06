@@ -7,6 +7,11 @@
         name="sort-icon.png"
         file="sort-icon.png"
       />
+	  
+  <browser:resource
+        name="sortmyfolder.js"
+        file="sortmyfolder.js"
+      />
 
   <browser:page
     for="OFS.interfaces.IOrderedContainer"

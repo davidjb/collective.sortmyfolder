@@ -55,6 +55,10 @@ he can perform common sort operation.
 .. image:: http://keul.it/images/plone/collective.sortmyfolder-1.0.0.png
    :alt: Sort my folder form
 
+The last option make possible for users to specify a custom attribute, not in the list; if you don't like this
+just add a CSS rules that hide the ``choice_custom_field`` element. Use of this last option need some Javascript to
+be executed.
+
 What this product isn't
 =======================
 
@@ -64,8 +68,19 @@ It will not add new sorting behaviour.
 Dependencies
 ============
 
-Test for collective.sortmyfolder has been done on Plone 3.3.
-Tests on Plone 4 are welcome. 
+Test for collective.sortmyfolder has been done on:
+
+* Plone 3.3
+* Plone 4.0 
+
+Credits
+=======
+
+Developed with the support of `S. Anna Hospital, Ferrara`__; S. Anna Hospital supports the
+`PloneGov initiative`__.
+
+__ http://www.ospfe.it/
+__ http://www.plonegov.it/
 
 Authors
 =======

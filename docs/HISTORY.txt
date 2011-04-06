@@ -7,6 +7,9 @@ Changelog
 * added new dates sorting criteria [keul]
 * added the field for a custom way to sort [keul] 
 * do not show the menu entry if you can't sort the current object [keul]
+* added some javascript for the new custom field.
+  Not enabled js browser will no be able to use the new feature [keul]
+* tested also on Plone 4
 
 0.2.0 (2011-01-07)
 ------------------

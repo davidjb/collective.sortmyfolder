@@ -7,6 +7,12 @@
 
 <body>
 
+<head>
+<metal:head metal:fill-slot="javascript_head_slot">
+	<script type="text/javascript" tal:attributes="src string:${context/portal_url}/++resource++sortmyfolder.js"></script>
+</metal:head>
+</head>
+
 <div metal:fill-slot="main">
     <tal:main-macro metal:define-macro="main">
     <div id="sortingUI">
@@ -94,13 +100,12 @@
             </div>
 			
             <div class="field" id="choice_custom_field">
+                <input type="radio" id="choice_custom" name="id" value="" disabled="disabled" />
                 <label for="choice_custom" i18n:translate="">Custom attribute</label>
+                <input type="text" id="choice_custom_data" value="" disabled="disabled" />
                 <div class="formHelp" i18n:translate="help_sort_custom">
                     For advanced sorting. Put there the name of an attribute you know can be used for sorting.
                 </div>
-                <input type="text" id="choice_custom" name="id" value=""
-				       onfocus="jq('#sortingUI :radio:checked').removeAttr('checked')"
-					   />
             </div>
 			
         </fieldset>
