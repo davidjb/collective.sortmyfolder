@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_skins" >
-   
+
  <object name="sortmyfolder"
     meta_type="Filesystem Directory View"
     directory="collective.sortmyfolder:skins/sortmyfolder"/>
@@ -9,5 +9,5 @@
   <layer name="sortmyfolder"
      insert-after="custom"/>
  </skin-path>
- 
+
 </object>
