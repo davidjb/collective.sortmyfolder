@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.2 (unreleased)
+------------------
+
+* Made compatible with Plone 4.1.  [maurits]
+
 1.0.1 (2011-04-20)
 ------------------
 
