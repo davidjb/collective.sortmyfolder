@@ -4,10 +4,18 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+* Make plone domain translations work in both Plon 3 and 4 by having
+  them in an i18n directory and in a conditionally loaded plonelocales
+  directory.
+  [maurits]
+
 * Added MANIFEST.in so .mo files can be included in the release
   (automatically when using zest.releaser+zest.pocompile).
   [maurits]
-* Made compatible with Plone 4.1.  [maurits]
+
+* Made compatible with Plone 4.1.
+  [maurits]
+
 
 1.0.1 (2011-04-20)
 ------------------
