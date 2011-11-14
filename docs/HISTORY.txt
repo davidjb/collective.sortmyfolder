@@ -4,6 +4,11 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+* Set the icon_expr in actions.xml so we register the action icon in
+  the preferred way in Plone 4.  We keep actionicons.xml for backwards
+  compatibility with Plone 3.
+  [maurits]
+
 * No longer use the plone domain for our action as portal_actions
   accepts other domains too.  This means we no longer need the i18n
   directory.  Added an upgrade step to switch our action to use
