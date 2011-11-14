@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-14 11:42+0000\n"
+"POT-Creation-Date: 2011-11-14 11:49+0000\n"
 "PO-Revision-Date: 2011-01-04 11:10+0100\n"
 "Last-Translator: Luca Fabbri <luca.fabbri@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -36,6 +36,10 @@ msgstr "Data di pubblicazione"
 msgid "Expiration date"
 msgstr "Data di scadenza"
 
+#: Profile description in configure.zcml
+msgid "Installs the collective.sortmyfolder package"
+msgstr ""
+
 #: ./browser/sort_contents.pt:69
 msgid "Modification date"
 msgstr "Data di modifica"
@@ -59,6 +63,10 @@ msgstr "Opzioni di ordinamento della cartella"
 #: ./browser/sort_contents.pt:43
 msgid "Title"
 msgstr "Titolo"
+
+#: Profile title in configure.zcml
+msgid "collect.sortmyfolder"
+msgstr ""
 
 #. Default: "Check this for reverse sorting, from greater value to the lowest."
 #: ./browser/sort_contents.pt:115

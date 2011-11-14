@@ -1,10 +1,10 @@
 # --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
+# collective.sortmyfolder translations
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-14 11:42+0000\n"
+"Project-Id-Version: collective.sortmyfolder 1.0\n"
+"POT-Creation-Date: 2011-11-14 11:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,10 @@ msgstr ""
 msgid "Expiration date"
 msgstr ""
 
+#: Profile description in configure.zcml
+msgid "Installs the collective.sortmyfolder package"
+msgstr ""
+
 #: ./browser/sort_contents.pt:69
 msgid "Modification date"
 msgstr ""
@@ -59,6 +63,10 @@ msgstr ""
 
 #: ./browser/sort_contents.pt:43
 msgid "Title"
+msgstr ""
+
+#: Profile title in configure.zcml
+msgid "collect.sortmyfolder"
 msgstr ""
 
 #. Default: "Check this for reverse sorting, from greater value to the lowest."

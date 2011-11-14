@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-14 11:42+0000\n"
+"Project-Id-Version: collective.sortmyfolder 1.0\n"
+"POT-Creation-Date: 2011-11-14 11:49+0000\n"
 "PO-Revision-Date: 2011-01-04 11:10+0100\n"
 "Last-Translator: Fred van Dijk <f.van.dijk@zestsoftware.nl>\n"
 "Language-Team: Zest Software <info@zestsoftware.nl>\n"
@@ -35,6 +35,10 @@ msgstr "Publicatiedatum"
 msgid "Expiration date"
 msgstr "Vervaldatum"
 
+#: Profile description in configure.zcml
+msgid "Installs the collective.sortmyfolder package"
+msgstr "Installeert het collective.sortmyfolder pakket"
+
 #: ./browser/sort_contents.pt:69
 msgid "Modification date"
 msgstr "Wijzigingsdatum"
@@ -58,6 +62,10 @@ msgstr "Sorteeropties folder"
 #: ./browser/sort_contents.pt:43
 msgid "Title"
 msgstr "Titel"
+
+#: Profile title in configure.zcml
+msgid "collect.sortmyfolder"
+msgstr "collect.sortmyfolder"
 
 #. Default: "Check this for reverse sorting, from greater value to the lowest."
 #: ./browser/sort_contents.pt:115
