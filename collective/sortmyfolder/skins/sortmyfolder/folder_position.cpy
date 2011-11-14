@@ -9,7 +9,7 @@
 ##parameters=position, id, template_id='folder_contents', delta=1, reverse=None
 ##
 
-from Products.CMFPlone import PloneMessageFactory as _
+from Products.CMFPlone import PloneMessageFactory as PMF
 delta = int(delta)
 
 position=position.lower()
@@ -29,7 +29,7 @@ elif position=='ordered':
 
 context.plone_utils.reindexOnReorder(context)
 
-msg=_(u'Item\'s position has changed.')
+msg = PMF(u"Item's position has changed.")
 context.plone_utils.addPortalMessage(msg)
 
 return state

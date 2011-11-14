@@ -1,9 +1,7 @@
 #!/bin/sh
 
 DOMAIN1='collective.sortmyfolder'
-i18ndude rebuild-pot --pot locales/${DOMAIN1}-temp.pot --create ${DOMAIN1} .
-i18ndude filter locales/${DOMAIN1}-temp.pot locales/${DOMAIN1}-exclude.pot > locales/${DOMAIN1}.pot
-rm locales/${DOMAIN1}-temp.pot
+i18ndude rebuild-pot --pot locales/${DOMAIN1}.pot --create ${DOMAIN1} .
 i18ndude sync --pot locales/${DOMAIN1}.pot locales/*/LC_MESSAGES/${DOMAIN1}.po
 
 DOMAIN2='plone'
