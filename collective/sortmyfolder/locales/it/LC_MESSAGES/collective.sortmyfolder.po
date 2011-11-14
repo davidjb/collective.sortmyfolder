@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-14 11:49+0000\n"
+"POT-Creation-Date: 2011-11-14 14:27+0000\n"
 "PO-Revision-Date: 2011-01-04 11:10+0100\n"
 "Last-Translator: Luca Fabbri <luca.fabbri@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -56,6 +56,11 @@ msgstr "Ordinamento inverso"
 msgid "Sort"
 msgstr "Ordina"
 
+#: ./profiles/default/actionicons.xml
+#: ./profiles/default/actions.xml
+msgid "Sort folder"
+msgstr "Ordina cartella"
+
 #: ./browser/sort_contents.pt:19
 msgid "Sort folder options"
 msgstr "Opzioni di ordinamento della cartella"
@@ -97,6 +102,11 @@ msgstr "Ordina per data di pubblicazione. Comunemente questa è la data di pubbl
 #: ./browser/sort_contents.pt:87
 msgid "help_sort_expiration"
 msgstr "Ordina per data di scadenza. Questa data è usata dagli autori per far sì che il contenuto sparisca automaticamente. Tieni presente che questa data può anche non essere fornita."
+
+#. Default: "Advanced sorting options for the folder"
+#: ./profiles/default/actions.xml
+msgid "help_sort_folder"
+msgstr "Opzioni avanzate di ordinamento della cartella"
 
 #. Default: "Sort by modification date. When you modify a content its position is not changed automatically."
 #: ./browser/sort_contents.pt:70

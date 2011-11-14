@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.sortmyfolder 1.0\n"
-"POT-Creation-Date: 2011-11-14 11:49+0000\n"
+"POT-Creation-Date: 2011-11-14 14:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,6 +57,11 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
+#: ./profiles/default/actionicons.xml
+#: ./profiles/default/actions.xml
+msgid "Sort folder"
+msgstr ""
+
 #: ./browser/sort_contents.pt:19
 msgid "Sort folder options"
 msgstr ""
@@ -97,6 +102,11 @@ msgstr ""
 #. Default: "Sort by expiration date. This is used by authors for make the content automatically disappear. Be aware that this date can also be not provided."
 #: ./browser/sort_contents.pt:87
 msgid "help_sort_expiration"
+msgstr ""
+
+#. Default: "Advanced sorting options for the folder"
+#: ./profiles/default/actions.xml
+msgid "help_sort_folder"
 msgstr ""
 
 #. Default: "Sort by modification date. When you modify a content its position is not changed automatically."

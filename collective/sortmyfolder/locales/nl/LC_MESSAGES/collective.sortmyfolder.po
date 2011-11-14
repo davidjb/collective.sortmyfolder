@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.sortmyfolder 1.0\n"
-"POT-Creation-Date: 2011-11-14 11:49+0000\n"
+"POT-Creation-Date: 2011-11-14 14:27+0000\n"
 "PO-Revision-Date: 2011-01-04 11:10+0100\n"
 "Last-Translator: Fred van Dijk <f.van.dijk@zestsoftware.nl>\n"
 "Language-Team: Zest Software <info@zestsoftware.nl>\n"
@@ -55,6 +55,11 @@ msgstr "Omgekeerde volgorde"
 msgid "Sort"
 msgstr "Sorteer"
 
+#: ./profiles/default/actionicons.xml
+#: ./profiles/default/actions.xml
+msgid "Sort folder"
+msgstr "Sorteer folder"
+
 #: ./browser/sort_contents.pt:19
 msgid "Sort folder options"
 msgstr "Sorteeropties folder"
@@ -96,6 +101,11 @@ msgstr "Sorteer op publicatiedatum. Deze datum kan aangepast worden door auteurs
 #: ./browser/sort_contents.pt:87
 msgid "help_sort_expiration"
 msgstr "Sorteer op vervaldatum. Deze datum gebruikt auteurs om inhoud automatisch uit overzichten te laten verdwijnen. Deze datum kan misschien leeg zijn op sommige inhoud. "
+
+#. Default: "Advanced sorting options for the folder"
+#: ./profiles/default/actions.xml
+msgid "help_sort_folder"
+msgstr "Geavanceerde sorteeropties voor de folder."
 
 #. Default: "Sort by modification date. When you modify a content its position is not changed automatically."
 #: ./browser/sort_contents.pt:70

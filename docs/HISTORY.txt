@@ -4,9 +4,10 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
-* Make plone domain translations work in both Plon 3 and 4 by having
-  them in an i18n directory and in a conditionally loaded plonelocales
-  directory.
+* No longer use the plone domain for our action as portal_actions
+  accepts other domains too.  This means we no longer need the i18n
+  directory.  Added an upgrade step to switch our action to use
+  collective.sortmyfolder as domain.
   [maurits]
 
 * Added MANIFEST.in so .mo files can be included in the release

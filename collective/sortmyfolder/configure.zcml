@@ -10,8 +10,6 @@
   <five:registerPackage package="." />
 
   <i18n:registerTranslations directory="locales" />
-  <i18n:registerTranslations directory="plonelocales"
-           zcml:condition="have plone-4" />
   <include package="Products.CMFCore" file="permissions.zcml"
            zcml:condition="have plone-41" />
   <include package=".browser" />
@@ -23,6 +21,14 @@
       description="Installs the collective.sortmyfolder package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
+  <genericsetup:upgradeStep
+      title="Update our actions"
+      description=""
+      source="1.0.0"
+      destination="1.0.1"
+      handler="collective.sortmyfolder.migration.run_actions_step"
+      profile="collective.sortmyfolder:default" />
 
   <cmf:registerDirectory
        name="sortmyfolder"/>
