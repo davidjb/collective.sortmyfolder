@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.2 (unreleased)
+1.0.2 (2011-11-14)
 ------------------
 
 * Set the icon_expr in actions.xml so we register the action icon in
