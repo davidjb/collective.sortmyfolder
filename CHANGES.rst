@@ -4,7 +4,8 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Moved to https://github.com/collective/collective.sortmyfolder
+  [maurits]
 
 
 1.0.2 (2011-11-14)
