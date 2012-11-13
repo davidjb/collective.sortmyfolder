@@ -85,8 +85,8 @@ Credits
 
 Developed with the support of `S. Anna Hospital, Ferrara`__
 
-  .. image:: http://www.ospfe.it/ospfe-logo.jpg 
-     :alt: S. Anna Hospital - logo
+.. image:: http://www.ospfe.it/ospfe-logo.jpg 
+   :alt: S. Anna Hospital - logo
      
 S. Anna Hospital supports the
 `PloneGov initiative`__.
