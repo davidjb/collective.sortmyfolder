@@ -65,6 +65,13 @@ What this product isn't
 This product only reveals features that are already in Plone (inside the *orderObjects* method).
 It will not add new sorting behaviour.
 
+
+Alternative products
+====================
+
+On pypi there is a newer product that upgrades base folder_contents view with more functions (like different sorting methods, multiple upload or shift-click selection): `pypi.python.org/pypi/wildcard.foldercontents <http://pypi.python.org/pypi/wildcard.foldercontents>`_
+
+
 Dependencies
 ============
 
