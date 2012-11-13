@@ -22,6 +22,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.sortmyfolder: uninstall"
+      directory="profiles/uninstall"
+      description="Uninstall the collective.sortmyfolder package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <genericsetup:upgradeStep
       title="Update our actions"
       description=""

@@ -4,7 +4,7 @@ Changelog
 1.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fixed uninstall step for skin layer [micecchi]
 
 
 1.0.3 (2012-10-14)
