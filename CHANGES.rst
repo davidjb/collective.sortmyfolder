@@ -4,7 +4,7 @@ Changelog
 1.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fixed manifest for rst files [micecchi]
 
 
 1.0.4 (2012-11-13)
