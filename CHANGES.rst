@@ -4,6 +4,12 @@ Changelog
 1.0.6 (unreleased)
 ------------------
 
+- Get ordering by parent position working on Plone 4.  This needs a
+  plone.folder version higher than 1.0.4, with changes from the
+  maurits-support-method-and-reverse branch, which is not released
+  yet.
+  [maurits]
+
 - Add option to sort by id.
   [maurits]
 
