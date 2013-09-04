@@ -117,7 +117,7 @@ msgstr "Sorteer op wijzigingsdatum. Wanneer een item aangepast wordt, verandert 
 msgid "help_sort_position_in_folder"
 msgstr "Gebruik deze optie in combinatie met de \"omgekeerde volgorde\" optie hieronder om de huidige volgorde van de items in de folder om te keren. Wanneer de \"omgekeerde volgorde\" optie niet gebruikt wordt, verandert er niets."
 
-#. Default: "Sort by content's title. Be aware that titles with digit can leave to unexpected results."
+#. Default: "Sort by content's title. Be aware that titles with digits can lead to unexpected results."
 #: ./browser/sort_contents.pt:44
 msgid "help_sort_title"
 msgstr "Sorteer op titel. Let op: als er titels zijn die beginnen met cijfers, kan deze optie onverwachte resultaten opleveren."

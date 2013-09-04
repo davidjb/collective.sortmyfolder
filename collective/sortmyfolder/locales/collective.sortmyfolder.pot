@@ -119,7 +119,7 @@ msgstr ""
 msgid "help_sort_position_in_folder"
 msgstr ""
 
-#. Default: "Sort by content's title. Be aware that titles with digit can leave to unexpected results."
+#. Default: "Sort by content's title. Be aware that titles with digits can lead to unexpected results."
 #: ./browser/sort_contents.pt:44
 msgid "help_sort_title"
 msgstr ""

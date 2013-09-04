@@ -118,7 +118,7 @@ msgstr "Ordina per data di ultima modifica. Quando un contenuto è modificato la
 msgid "help_sort_position_in_folder"
 msgstr "Usa questo flag con l'opzione \"inversa\" qui sotto, per invertire l'ordinamento corrente della cartella. Se non usi quel flag non avvengono cambiamenti."
 
-#. Default: "Sort by content's title. Be aware that titles with digit can leave to unexpected results."
+#. Default: "Sort by content's title. Be aware that titles with digits can lead to unexpected results."
 #: ./browser/sort_contents.pt:44
 msgid "help_sort_title"
 msgstr "Ordina per titolo del contenuto. Da notare che titoli con numeri all'interno possono portare a risultati inaspettati."

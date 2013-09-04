@@ -42,7 +42,7 @@
                 <input type="radio" id="choice_title" name="id" value="title" />
                 <label for="choice_title" i18n:translate="">Title</label>
                 <div class="formHelp" i18n:translate="help_sort_title">
-                    Sort by content's title. Be aware that titles with digit can leave to unexpected results.
+                    Sort by content's title. Be aware that titles with digits can lead to unexpected results.
                 </div>
             </div>
 
@@ -103,7 +103,7 @@
                 <input type="radio" id="choice_id" name="id" value="id" />
                 <label for="choice_id" i18n:translate="">Id</label>
                 <div class="formHelp" i18n:translate="help_sort_id">
-                    Sort by content's id. Be aware that ids with digit can leave to unexpected results.
+                    Sort by content's id. Be aware that ids with digits can lead to unexpected results.
                 </div>
             </div>
 
