@@ -2,12 +2,12 @@
  * Scripts for collective.sortmyfolder
  */
 
-/*global jq: false, document: false*/
+(function($) {
 
-jq(document).ready(function() {
-	var $page = jq('#sortingUI');
-	var $customCommand = jq(':radio:last', $page);
-	var $customCommandData = jq('#choice_custom_data');
+$(document).ready(function() {
+	var $page = $('#sortingUI');
+	var $customCommand = $(':radio:last', $page);
+	var $customCommandData = $('#choice_custom_data');
 	
 	$customCommand.removeAttr('disabled');
 	
@@ -19,7 +19,7 @@ jq(document).ready(function() {
 		}
 	};
 
-	jq(':radio').click(refresh);
+	$(':radio').click(refresh);
 	
 	$customCommandData.blur(function() {
 		$customCommand.val($customCommandData.val());
@@ -27,3 +27,4 @@ jq(document).ready(function() {
 	
 	refresh();
 });
+})(jQuery);

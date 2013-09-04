@@ -4,7 +4,9 @@ Changelog
 1.0.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix javascript for newer jquery versions in newer Plones, not using
+  the ``jq`` alias.
+  [maurits]
 
 
 1.0.5 (2012-11-13)
