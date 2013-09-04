@@ -4,6 +4,9 @@ Changelog
 1.0.6 (unreleased)
 ------------------
 
+- Hide the custom field by default.  Show it with Javascript.
+  [maurits]
+
 - Fix javascript for newer jquery versions in newer Plones, not using
   the ``jq`` alias.
   [maurits]

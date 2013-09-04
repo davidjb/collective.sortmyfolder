@@ -8,7 +8,9 @@ $(document).ready(function() {
 	var $page = $('#sortingUI');
 	var $customCommand = $(':radio:last', $page);
 	var $customCommandData = $('#choice_custom_data');
+	var $customCommandField = $('#choice_custom_field');
 	
+	$customCommandField.show();
 	$customCommand.removeAttr('disabled');
 	
 	var refresh = function() {

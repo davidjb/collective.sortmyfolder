@@ -99,7 +99,7 @@
                 </div>
             </div>
 			
-            <div class="field" id="choice_custom_field">
+            <div class="field" id="choice_custom_field" style="display: none">
                 <input type="radio" id="choice_custom" name="id" value="" disabled="disabled" />
                 <label for="choice_custom" i18n:translate="">Custom attribute</label>
                 <input type="text" id="choice_custom_data" value="" disabled="disabled" />
