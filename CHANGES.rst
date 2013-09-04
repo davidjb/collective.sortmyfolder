@@ -4,6 +4,9 @@ Changelog
 1.0.6 (unreleased)
 ------------------
 
+- Add option to sort by id.
+  [maurits]
+
 - Hide the custom field by default.  Show it with Javascript.
   [maurits]
 

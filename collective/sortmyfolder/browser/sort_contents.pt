@@ -99,6 +99,14 @@
                 </div>
             </div>
 			
+            <div class="field">
+                <input type="radio" id="choice_id" name="id" value="id" />
+                <label for="choice_id" i18n:translate="">Id</label>
+                <div class="formHelp" i18n:translate="help_sort_id">
+                    Sort by content's id. Be aware that ids with digit can leave to unexpected results.
+                </div>
+            </div>
+
             <div class="field" id="choice_custom_field" style="display: none">
                 <input type="radio" id="choice_custom" name="id" value="" disabled="disabled" />
                 <label for="choice_custom" i18n:translate="">Custom attribute</label>
