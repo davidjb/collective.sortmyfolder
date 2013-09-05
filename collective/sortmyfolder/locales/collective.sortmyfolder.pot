@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.sortmyfolder 1.0\n"
-"POT-Creation-Date: 2011-11-14 15:20+0000\n"
+"POT-Creation-Date: 2013-09-05 08:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Creation date"
 msgstr ""
 
-#: ./browser/sort_contents.pt:104
+#: ./browser/sort_contents.pt:112
 msgid "Custom attribute"
 msgstr ""
 
@@ -37,6 +37,10 @@ msgstr ""
 msgid "Expiration date"
 msgstr ""
 
+#: ./browser/sort_contents.pt:104
+msgid "Id"
+msgstr ""
+
 #: Profile description in configure.zcml
 msgid "Installs the collective.sortmyfolder package"
 msgstr ""
@@ -49,11 +53,11 @@ msgstr ""
 msgid "Position in folder"
 msgstr ""
 
-#: ./browser/sort_contents.pt:114
+#: ./browser/sort_contents.pt:122
 msgid "Reverse sorting"
 msgstr ""
 
-#: ./browser/sort_contents.pt:119
+#: ./browser/sort_contents.pt:127
 msgid "Sort"
 msgstr ""
 
@@ -75,7 +79,7 @@ msgid "collect.sortmyfolder"
 msgstr ""
 
 #. Default: "Check this for reverse sorting, from greater value to the lowest."
-#: ./browser/sort_contents.pt:115
+#: ./browser/sort_contents.pt:123
 msgid "help_reverse"
 msgstr ""
 
@@ -85,7 +89,7 @@ msgid "help_sort_created"
 msgstr ""
 
 #. Default: "For advanced sorting. Put there the name of an attribute you know can be used for sorting."
-#: ./browser/sort_contents.pt:106
+#: ./browser/sort_contents.pt:114
 msgid "help_sort_custom"
 msgstr ""
 
@@ -107,6 +111,11 @@ msgstr ""
 #. Default: "Advanced sorting options for the folder"
 #: ./profiles/default/actions.xml
 msgid "help_sort_folder"
+msgstr ""
+
+#. Default: "Sort by content's id. Be aware that ids with digits can lead to unexpected results."
+#: ./browser/sort_contents.pt:105
+msgid "help_sort_id"
 msgstr ""
 
 #. Default: "Sort by modification date. When you modify a content its position is not changed automatically."
