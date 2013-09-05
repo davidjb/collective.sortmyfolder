@@ -15,10 +15,11 @@ The Plone UI has no way at the moment for performing actions like this::
     http://myhost/myfolder/folder_position?position=ordered&id=fieldname
 
 But this feature is inside Plone: in this way you will sort a folder automatically, using a field value for comparison
-(like "*title*", or "*created*").
+(like ``title``, or ``created``).
 
-The *folder_position* script uses the *orderObjects* API. This last method has some additional nice features that
+The ``folder_position`` script uses the ``orderObjects`` API. This last method has some additional nice features that
 unluckily are not exposed to users. But we can fix this.
+
 
 What this product does
 ======================
@@ -26,6 +27,7 @@ What this product does
 This product adds to Plone some of the features that follow, patching Plone a little (see also `#11317`__).
 
 __ http://dev.plone.org/plone/ticket/11317
+
 
 Can now sort a folder in reverse order
 --------------------------------------
@@ -35,6 +37,7 @@ You can call an URL like this::
     http://myhost/myfolder/folder_position?position=ordered&id=created&reverse=1
 
 and this will sort the folder using reverse criteria.
+
 
 Add "delta" criteria to the sorting mechanism
 ---------------------------------------------
@@ -46,6 +49,7 @@ You can call::
 and this will move the content down by 4 slots instead of the default 1 (this feature is not so useful if you use Plone KSS/jQuery/Javascript
 sorting).
 
+
 Add a nice Plone interface for global folder sorting
 ----------------------------------------------------
 
@@ -55,9 +59,12 @@ he can perform common sorting operations.
 .. image:: http://keul.it/images/plone/collective.sortmyfolder-1.0.0.png
    :alt: Sort my folder form
 
-The last option makes it possible for users to specify a custom attribute that's not in the list; if you don't like this,
-just add a CSS rules which hides the ``choice_custom_field`` element. Use of this last option needs some Javascript to
-be executed.
+The last option makes it possible for users to specify a custom
+attribute that's not in the list.  It is hidden by default and is
+shown by Javascript as it needs some Javascript to work anyway.  If
+you don't like this option, just add a CSS rules which hides the
+``choice_custom_field`` element.
+
 
 What this product isn't
 =======================
@@ -79,6 +86,12 @@ Testing for collective.sortmyfolder has been done on:
 
 * Plone 3.3
 * Plone 4.2
+* Plone 4.3
+
+Note that on Plone 4, reverse sorting on the position does not work.
+Work is under way to fix this.  It needs changes in both
+``collective.sortmyfolder`` and the core ``plone.folder`` package.
+
 
 Credits
 =======
